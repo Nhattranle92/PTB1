@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function tinh(){
+            //pt ax+b=0
+            var x;
+            
+            let a = +prompt('nhap a');
+            let b = +prompt('nhap b');
+
+            if (a==0) {
+                if (b==0){
+                    alert('pt vo so nghiem');
+                }else{
+                    alert('pt vo nghiem');
+                }
+            }else{
+                x= -b/a
+                alert(' pt co nghiem x='+x);
+            }
+        }    
+        
+    </script>
+</head>
+<body>
+    <button onclick="tinh()"> Click</button>
+</body>
+</html>
